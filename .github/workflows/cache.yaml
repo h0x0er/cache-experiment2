@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: h0x0er/harden-runner@issue173
+    - uses: h0x0er/harden-runner@cache-solve
     - run: echo "sampel text file" > /home/runner/sample.txt
     - run: cat /home/runner/sample.txt
